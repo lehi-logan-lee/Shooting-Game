@@ -1,0 +1,84 @@
+*{
+margin:0;
+padding: 0;
+}
+
+#container{
+     width: 830px;
+     margin: 0 auto;
+           } 
+ul{
+list-style: none;
+}
+
+#branch ul{
+list-style: square;
+}
+
+#logo{
+   width: 800px;
+   }
+#logo h1{
+      margin-right: 20px;
+      float: left;
+      }
+      
+#category ul li{
+      float: left;
+      }
+          
+#subject ul li{
+          width: 166px;
+          float: left;
+          }
+          
+#new_student{
+         float: left;
+         }
+
+#new_student h3{
+         float: left;
+         margin-right: 30px;
+}
+#new_student h4{
+    height: 260px;
+	clear: both;
+}  
+#introduce{
+	float: right;
+}
+#branch{
+    width: 450px;
+	float: left;;
+}
+#branch ul li{
+    color: green;
+    }
+
+#branch ul{
+    list-style-image: url(images/listitem.gif);
+	margin-left: -20px;
+	padding-left: 60px;
+	}
+#branch .wbc{
+	border-left: solid 4px lightgreen ;
+	}
+#branch .ccc{
+	border-left: solid 4px yellow ;
+	}	
+#contact{
+    width: 280px;
+    float: right;
+    }
+#contact h5{
+    margin-bottom: 50px;
+    color: green;
+    }
+#end {
+     clear: both;
+     text-align: center;
+     background: lightgreen;
+     }
+#contact .mail{
+     color: blue;
+     }
